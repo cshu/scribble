@@ -1,0 +1,40 @@
+THIS APP IS FOR EXPERIMENTAL AND TEMPORARY USE.
+
+THIS APP HANDLES NO EXCEPTION! THE TWO TEXT FILES COULD BE CORRUPTED IN MANY WAYS! SECURE THEM AS NECESSARY
+
+
+Files:
+
+wordlist.txt
+
+marks.txt
+the ' ' is the delimiter, every number means BOOL[number+previous numbers], where the different bool value emerges
+
+
+Procedures:
+
+a. load the wordlist.txt, load the marks.txt
+
+[
+b. reset the orientation, including downward or scrambled, and the option of precluding the words that you learned
+c. reset the current word
+d. press the down or up button, revealing the next word or the meanings
+e. press the right button, change the mark of the word
+f. press the left button, reveal or hide the meanings of all the words
+]
+
+z. exit, save the MARKS or not
+
+
+Interface:
+
+liBoEn
+liBoCn
+labelEn
+labelCn
+
+Other:
+
+the word list is stored as two arrays of strings
+the marks are stored as an array of bool variables, 0 denotes learning, 1 denotes learned.
+b. grants 4 kinds of option
